@@ -13,7 +13,7 @@ You can use devxhub_python from Python:
     devxhub_python('devxhub_python/')
 
     # Create project from the devxhub_python.git repo template
-    devxhub_python('https://github.com/devxhub/devxhub_python.git')
+    devxhub_python('https://github.com/git-jamil/devxhub_python.git')
 
 This is useful if, for example, you're writing a web framework and need to provide developers with a tool similar to `django-admin.py startproject` or `npm init`.
 

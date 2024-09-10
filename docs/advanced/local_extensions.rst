@@ -3,7 +3,7 @@
 Local Extensions
 ----------------
 
-*New in devxhub_python 2.1*
+*New in devxhub_python 0.0.3*
 
 A template may extend the devxhub_python environment with local extensions.
 These can be part of the template itself, providing it with more sophisticated custom tags and filters.

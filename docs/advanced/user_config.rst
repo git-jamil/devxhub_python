@@ -3,24 +3,24 @@
 User Config
 ===========
 
-*New in devxhub_python 0.7*
+*New in devxhub_python 0.0.3*
 
 If you use devxhub_python a lot, you'll find it useful to have a user config file.
 By default devxhub_python tries to retrieve settings from a `.devxhub_pythonrc` file in your home directory.
 
-*New in devxhub_python 1.3*
+*New in devxhub_python 0.0.3*
 
 You can also specify a config file on the command line via ``--config-file``.
 
 .. code-block:: bash
 
-    devxhub_python --config-file /home/audreyr/my-custom-config.yaml devxhub_python
+    devxhub_python --config-file /home/devxhub/my-custom-config.yaml devxhub_python
 
 Or you can set the ``devxhub_python_CONFIG`` environment variable:
 
 .. code-block:: bash
 
-    export devxhub_python_CONFIG=/home/audreyr/my-custom-config.yaml
+    export devxhub_python_CONFIG=/home/devxhub/my-custom-config.yaml
 
 If you wish to stick to the built-in config and not load any user config file at all, use the CLI option ``--default-config`` instead.
 Preventing devxhub_python from loading user settings is crucial for writing integration tests in an isolated environment.
@@ -30,11 +30,11 @@ Example user config:
 .. code-block:: yaml
 
     default_context:
-        full_name: "Audrey Roy"
-        email: "audreyr@example.com"
-        github_username: "audreyr"
-    devxhub_pythons_dir: "/home/audreyr/my-custom-devxhub_pythons-dir/"
-    replay_dir: "/home/audreyr/my-custom-replay-dir/"
+        full_name: "DEVxHUB"
+        email: "tech@devxhub.com"
+        github_username: "devxhub"
+    devxhub_pythons_dir: "/home/devxhub/my-custom-devxhub_pythons-dir/"
+    replay_dir: "/home/devxhub/my-custom-replay-dir/"
     abbreviations:
         pp: https://github.com/devxhub/devxhub_python.git
         gh: https://github.com/{0}.git
@@ -54,7 +54,7 @@ Possible settings are:
     A list of abbreviations for devxhub_pythons.
     Abbreviations can be simple aliases for a repo name, or can be used as a prefix, in the form ``abbr:suffix``.
     Any suffix will be inserted into the expansion in place of the text ``{0}``, using standard Python string formatting.
-    With the above aliases, you could use the ``devxhub_python`` template simply by saying ``devxhub_python pp``, or ``devxhub_python gh:audreyr/devxhub_python``.
+    With the above aliases, you could use the ``devxhub_python`` template simply by saying ``devxhub_python pp``, or ``devxhub_python gh:devxhub/devxhub_python``.
     The ``gh`` (GitHub), ``bb`` (Bitbucket), and ``gl`` (Gitlab) abbreviations shown above are actually **built in**, and can be used without defining them yourself.
 
 Read also: :ref:`injecting-extra-content`

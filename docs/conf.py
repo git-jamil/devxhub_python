@@ -1,8 +1,7 @@
 """Documentation build configuration file."""
 
 #
-# devxhub_python documentation build configuration file, created by
-# sphinx-quickstart on Thu Jul 11 11:31:49 2013.
+# devxhub_python documentation build configuration file.
 #
 # This file is execfile()d with the current directory set to its containing
 # dir.
@@ -70,7 +69,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'devxhub_python'
-copyright = '2013-2022, Audrey Roy and devxhub_python community'
+copyright = '2024, Devxhub and devxhub_python community'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -219,7 +218,7 @@ latex_documents = [
         'index',
         'devxhub_python.tex',
         'devxhub_python Documentation',
-        'Audrey Roy and devxhub_python community',
+        'Devxhub and devxhub_python community',
         'manual',
     ),
 ]
@@ -254,7 +253,7 @@ man_pages = [
         'index',
         'devxhub_python',
         'devxhub_python Documentation',
-        ['Audrey Roy and devxhub_python community'],
+        ['Devxhub and devxhub_python community'],
         1,
     )
 ]
@@ -273,7 +272,7 @@ texinfo_documents = [
         'index',
         'devxhub_python',
         'devxhub_python Documentation',
-        'Audrey Roy and devxhub_python community',
+        'Devxhub and devxhub_python community',
         'devxhub_python',
         'Creates projects from project templates',
         'Miscellaneous',
@@ -297,9 +296,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = 'devxhub_python'
-epub_author = 'Audrey Roy'
-epub_publisher = 'Audrey Roy and devxhub_python community'
-epub_copyright = '2013-2022, Audrey Roy and devxhub_python community'
+epub_author = 'Jamil Rayhan'
+epub_publisher = 'devxhub_python community'
+epub_copyright = '2024- , devxhub_python community'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.

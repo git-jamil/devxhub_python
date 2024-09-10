@@ -3,13 +3,13 @@
 Replay Project Generation
 -------------------------
 
-*New in devxhub_python 1.1*
+*New in devxhub_python 0.0.3*
 
 On invocation **devxhub_python** dumps a json file to ``~/.devxhub_python_replay/`` which enables you to *replay* later on.
 
 In other words, it persists your **input** for a template and fetches it when you run the same template again.
 
-Example for a replay file (which was created via ``devxhub_python gh:hackebrot/cookiedozer``):
+Example for a replay file:
 
 .. code-block:: JSON
 
@@ -49,7 +49,7 @@ This feature comes in handy if, for instance, you want to create a new project f
 Custom replay file
 ~~~~~~~~~~~~~~~~~~
 
-*New in devxhub_python 2.0*
+*New in devxhub_python 0.0.3*
 
 To specify a custom filename, you can use the ``--replay-file`` option:
 

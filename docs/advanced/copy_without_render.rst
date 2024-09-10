@@ -3,7 +3,7 @@
 Copy without Render
 -------------------
 
-*New in devxhub_python 1.1*
+*New in devxhub_python 0.0.3*
 
 To avoid rendering directories and files of a devxhub_python, the ``_copy_without_render`` key can be used in the ``devxhub_python.json``.
 The value of this key accepts a list of Unix shell-style wildcards:

@@ -3,7 +3,7 @@
 Dictionary Variables
 --------------------
 
-*New in devxhub_python 1.5*
+*New in devxhub_python 0.0.3*
 
 Dictionary variables provide a way to define deep structured information when rendering a template.
 

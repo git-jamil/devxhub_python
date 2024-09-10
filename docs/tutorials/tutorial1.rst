@@ -58,36 +58,12 @@ Looking inside the `boilerplate/` (or directory corresponding to your `project_s
 .. code-block:: bash
 
     $ ls boilerplate/
-    AUTHORS.rst      MANIFEST.in      docs             tox.ini
-    CONTRIBUTING.rst Makefile         requirements.txt
-    HISTORY.rst      README.rst       setup.py
-    LICENSE          boilerplate      tests
+    MANIFEST.in      docs          
+    Makefile         requirements.txt
+    README.rst       setup.py
+    LICENSE.md          boilerplate      
 
 That's your new project!
-
-If you open the AUTHORS.rst file, you should see something like this:
-
-.. code-block:: rst
-
-    =======
-    Credits
-    =======
-
-    Development Lead
-    ----------------
-
-    * Audrey Roy <audreyr@gmail.com>
-
-    Contributors
-    ------------
-
-    None yet. Why not be the first?
-
-Notice how it was auto-populated with your (or my) name and email.
-
-Also take note of the fact that you are looking at a ReStructuredText file.
-devxhub_python can generate a project with text files of any type.
-
 Great, you just generated a skeleton Python package.
 How did that work?
 
@@ -106,14 +82,6 @@ You should see that this directory and its contents corresponds to the project t
 
 This happens in `find.py`, where the `find_template()` method looks for the first jinja-like directory name that starts with `devxhub_python`.
 
-AUTHORS.rst
-~~~~~~~~~~~
-
-Look at the raw version of `{{ devxhub_python.project_slug }}/AUTHORS.rst`, at
-https://raw.github.com/devxhub/devxhub_python/master/%7B%7Bdevxhub_python.project_slug%7D%7D/AUTHORS.rst.
-
-Observe how it corresponds to the `AUTHORS.rst` file that you generated.
-
 devxhub_python.json
 ~~~~~~~~~~~~~~~~~
 
@@ -124,10 +92,10 @@ You should see JSON that corresponds to the prompts and default values shown ear
 .. code-block:: json
 
     {
-        "full_name": "Audrey Roy Greenfeld",
-        "email": "aroy@alum.mit.edu",
-        "github_username": "audreyr",
-        "project_name": "Python Boilerplate",
+        "full_name": "Jmail Rayha",
+        "email": "tech@jamil.com",
+        "github_username": "git-jamil",
+        "project_name": "Django Boilerplate",
         "project_slug": "{{ devxhub_python.project_name.lower().replace(' ', '_') }}",
         "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
         "pypi_username": "{{ devxhub_python.github_username }}",

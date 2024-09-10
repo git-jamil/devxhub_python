@@ -1,9 +1,9 @@
 .. _templates:
 
-Templates inheritance (2.2+)
+Templates inheritance (0.0.2+)
 ---------------------------------------------------
 
-*New in devxhub_python 2.2+*
+*New in devxhub_python 0.0.2+*
 
 Sometimes you need to extend a base template with a different
 configuration to avoid nested blocks.
