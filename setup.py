@@ -33,7 +33,7 @@ requirements = [
 setup(
     name='devxhub_python',
     version=version,
-    description='A custom CLI for generating Django projects with Cookiecutter templates',
+    description='A custom CLI for generating Django projects with devxhub_python templates',
     long_description=readme,
     long_description_content_type='text/markdown',
     author='Jamil Rayhan',

@@ -1,6 +1,6 @@
 # devxhub_python
 
-A custom CLI for generating Django projects with Cookiecutter templates.
+A custom CLI for generating Django projects with devxhub_python templates.
 
 ## Installation
 
